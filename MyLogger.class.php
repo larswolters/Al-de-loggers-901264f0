@@ -60,3 +60,6 @@ class MyLogger
 
 $logger = new MyLogger('TestClass');
 $logger->log('warning', 'Bla Bla');
+
+$logger = new MyLogger('DifferentClass');
+$logger->log('error', 'Bla Bla 2');
